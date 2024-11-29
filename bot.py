@@ -2,7 +2,7 @@ import os
 import telebot
 import sqlite3
 
-token = '7345970043:AAEJTq21x02LBjiHAEgxMfWvkZNzmQfJ3X8'
+token = ''
 bot = telebot.TeleBot(token)
 all_com = ['/create', '/public_login', '/start', '/admin', '/next', '/delete', '/send']
 now = []
