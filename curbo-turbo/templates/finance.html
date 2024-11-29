@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="static\css\style.css">
+    </head>
+<body>
+    <h1>Финансовые статьи</h1>
+    <section class="content">
+        <div class="titname">
+            <h2>Текущие публицкации пользователей</h2>
+        </div>
+        {% set i = 0 %}
+        {% for article in articles %}
+        {% set i = i+1 %}
+        <div class="info-box">
+            <a href="{{ url_for('get_finance_file', filename=article) }}">{{ article }}
+                
+                {% set i = i+1 %}
+            </a>
+        </div>
+        {% endfor %}
+
+    </section>
+</body>
+</html>

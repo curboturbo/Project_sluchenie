@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="static\css\style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">HLE</div>
+        <input type="text" class="search-bar" placeholder="Найти...">
+        <div class="profile">TG Бот</div>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="titname">
+                <h1>Название статьи</h1>
+                <div class="info-text">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <button class="support-btn">Поддержать нас!</button>
+    </footer>
+    <script src="static\script.js"></script>
+</body>
+</html>

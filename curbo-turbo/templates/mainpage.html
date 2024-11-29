@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="static\css\style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">HLE</div>
+        <input type="text" class="search-bar" placeholder="Найти...">
+        <a href="https://t.me/Household_literacy_ecosystem">
+        <div class="profile">TG Бот</div>
+        </a>
+    </header>
+
+    <main>
+        <aside class="categories">
+            <h2>Категории</h2>
+            <div class="category-buttons">
+                <a href = '/hel'>
+                <button >Здоровье</button>
+                </a>
+            
+                <div class="subcategory-list" id="subcategory1">
+                    <button onclick="loadContent('subcategory1-item1')">Subcategory 1-1</button>
+                    <button onclick="loadContent('subcategory1-item2')">Subcategory 1-2</button>
+                </div>
+                <a href = '/cook'>
+                <button >Готовка</button>
+             </a>
+                <div class="subcategory-list" id="subcategory2">
+                    <button onclick="loadContent('subcategory2-item1')">Супы</button>
+                    <button onclick="loadContent('subcategory2-item2')">Каши</button>
+                    <button onclick="loadContent('subcategory2-item3')">Десерты</button>
+                    <button onclick="loadContent('subcategory2-item4')">Сложные блюда</button>
+                </div>
+ 
+                <a href = '/finance'>
+                <button>Финансы</button>
+            </a>
+            
+                <div class="subcategory-list" id="subcategory3">
+                   
+                </div>
+                <a href = '/home'>
+                <button >Жильё</button>
+                </a>
+                <div class="subcategory-list" id="subcategory4">
+                    <button onclick="loadContent('subcategory4-item1')">Subcategory 4-1</button>
+                    <button onclick="loadContent('subcategory4-item2')">Subcategory 4-2</button>
+                </div>
+
+                <button >Документы</button>
+                <div class="subcategory-list" id="subcategory5">
+                    <button onclick="loadContent('subcategory5-item1')">Subcategory 5-1</button>
+                    <button onclick="loadContent('subcategory5-item2')">Subcategory 5-2</button>
+                </div>
+
+                <!-- Add more buttons as needed -->
+            </div>
+        </aside>
+
+        <section class="content">
+            <div class="titname">
+                <h2>Рекомендации</h2>
+            </div>
+
+            <div class="info-box">
+                <h2>Ссылка на статью 1</h2>
+                <p>Краткая инфа из статьи</p>
+            </div>
+            <div class="info-box">
+                <h2>Ссылка на статью 1</h2>
+                <p>Краткая инфа из статьи</p>
+            </div>
+            <div class="info-box">
+                <h2>Ссылка на статью 1</h2>
+                <p>Краткая инфа из статьи</p>
+            </div>
+            <div class="info-box">
+                <h2>Ссылка на статью 1</h2>
+                <p>Краткая инфа из статьи</p>
+            </div>
+            <div class="info-box">
+                <h2>Ссылка на статью 1</h2>
+                <p>Краткая инфа из статьи</p>
+            </div>
+            <div class="info-box">
+                <h2>Ссылка на статью 1</h2>
+                <p>Краткая инфа из статьи</p>
+            </div>
+            <div class="info-box">
+                <h2>Ссылка на статью 1</h2>
+                <p>Краткая инфа из статьи</p>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <button class="support-btn">Поддержать нас!</button>
+    </footer>
+    <script src="static\script.js"></script>
+</body>
+</html>
